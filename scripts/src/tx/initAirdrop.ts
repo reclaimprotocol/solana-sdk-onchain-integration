@@ -1,5 +1,3 @@
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import * as anchor from "@coral-xyz/anchor";
 import {
   createComputeLimitAndFeeIx,

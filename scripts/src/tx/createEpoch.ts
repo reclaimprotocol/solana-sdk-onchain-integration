@@ -1,5 +1,3 @@
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
 import { getEpochPda } from "@reclaimprotocol/solana-sdk/src";
 import { createAddEpochInstruction } from "@reclaimprotocol/solana-sdk/src/generated";
 
